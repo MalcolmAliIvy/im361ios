@@ -14,6 +14,8 @@
 		8239867B225DAC5D00B3AF63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82398679225DAC5D00B3AF63 /* LaunchScreen.storyboard */; };
 		82398686225DAC5D00B3AF63 /* SayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82398685225DAC5D00B3AF63 /* SayTests.swift */; };
 		82398691225DAC5E00B3AF63 /* SayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82398690225DAC5E00B3AF63 /* SayUITests.swift */; };
+		8239869E225DB3BD00B3AF63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82398677225DAC5D00B3AF63 /* Assets.xcassets */; };
+		8239869F225DB3BE00B3AF63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82398677225DAC5D00B3AF63 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -239,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8239869E225DB3BD00B3AF63 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8239869F225DB3BE00B3AF63 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

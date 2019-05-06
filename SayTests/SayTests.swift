@@ -22,10 +22,12 @@ class SayTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let he =  Word(english: "he", french: "Il")
+        XCTAssertEqual("Il", he.french)
     }
 
     func testPerformanceExample() {
-        // This is an example of a performance test case.
+        // This is an example of a performance testase.
         self.measure {
             // Put the code you want to measure the time of here.
         }

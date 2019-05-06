@@ -29,6 +29,24 @@ class SayUITests: XCTestCase {
     func testExample() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        let app = XCUIApplication()
+        app.buttons["Start"].tap()
+        app.buttons["French"].tap()
+        app.buttons["Lesson"].tap()
+        
+        let nextButton = app.buttons["Next>"]
+        nextButton.tap()
+        nextButton.tap()
+        
+        let backButton = app.navigationBars["UIView"].buttons["Back"]
+        backButton.tap()
+        backButton.tap()
+        backButton.tap()
+        backButton.tap()
+        backButton.tap()
+        
+        
     }
 
 }

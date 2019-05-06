@@ -7,6 +7,10 @@
 //
 
 import UIKit
+struct Word {
+    let english: String
+    let french: String
+}
 
 class ViewController: UIViewController {
 
